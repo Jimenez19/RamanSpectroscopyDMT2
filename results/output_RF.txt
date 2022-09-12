@@ -1,0 +1,49 @@
+------------------------------------------------------------------------
+Mejores resultados para EarLobe
+recall:0.5, accuracy:0.85, precision:0.5, f1:0.5
+Hiperparámetros: {'n_estimators': 673, 'min_samples_split': 5, 'min_samples_leaf': 4,
+'max_features': 'sqrt', 'max_depth': 30, 'criterion': 'entropy', 'bootstrap': False}
+Tiempo transcurrido (best_model_grid_search_cv): 0:17:04.089926
+------------------------------------------------------------------------
+Mejores resultados para InnerArm
+recall:0.4, accuracy:0.55, precision:0.4, f1:0.4
+Hiperparámetros: {'n_estimators': 10, 'min_samples_split': 5, 'min_samples_leaf': 1,
+'max_features': 'sqrt', 'max_depth': None, 'criterion': 'gini', 'bootstrap': True}
+Tiempo transcurrido (best_model_grid_search_cv): 0:15:58.347579
+------------------------------------------------------------------------
+Mejores resultados para ThumbNail
+recall:0.4, accuracy:0.5, precision:0.4, f1:0.4
+Hiperparámetros: {'n_estimators': 10, 'min_samples_split': 2, 'min_samples_leaf': 1,
+'max_features': 'sqrt', 'max_depth': 90, 'criterion': 'gini', 'bootstrap': False}
+Tiempo transcurrido (best_model_grid_search_cv): 0:15:41.141564
+------------------------------------------------------------------------
+Mejores resultados para Vein
+recall:0.4, accuracy:0.5, precision:0.4, f1:0.4
+Hiperparámetros: {'n_estimators': 10, 'min_samples_split': 2, 'min_samples_leaf': 4,
+'max_features': 'auto', 'max_depth': 30, 'criterion': 'gini', 'bootstrap': False}
+Tiempo transcurrido (best_model_grid_search_cv): 0:16:49.227554
+------------------------------------------------------------------------
+Mejores resultados para EarLobe PCA
+recall:0.4, accuracy:0.6, precision:0.4, f1:0.4
+Hiperparámetros: {'n_estimators': 2000, 'min_samples_split': 10, 'min_samples_leaf': 2,
+'max_features': 'auto', 'max_depth': 40, 'criterion': 'gini', 'bootstrap': True}
+Tiempo transcurrido (best_model_grid_search_cv): 0:14:42.041986
+------------------------------------------------------------------------
+Mejores resultados para InnerArm PCA
+recall:0.45, accuracy:0.7, precision:0.45, f1:0.45
+Hiperparámetros: {'n_estimators': 10, 'min_samples_split': 5, 'min_samples_leaf': 2,
+'max_features': 'sqrt', 'max_depth': None, 'criterion': 'entropy', 'bootstrap': False}
+Tiempo transcurrido (best_model_grid_search_cv): 0:14:42.097235
+------------------------------------------------------------------------
+Mejores resultados para ThumbNail PCA
+recall:0.45, accuracy:0.65, precision:0.45, f1:0.45
+Hiperparámetros: {'n_estimators': 1336, 'min_samples_split': 2, 'min_samples_leaf': 4,
+'max_features': 'sqrt', 'max_depth': 70, 'criterion': 'entropy', 'bootstrap': True}
+Tiempo transcurrido (best_model_grid_search_cv): 0:13:17.684341
+------------------------------------------------------------------------
+Mejores resultados para Vein PCA
+recall:0.45, accuracy:0.55, precision:0.45, f1:0.45
+Hiperparámetros: {'n_estimators': 10, 'min_samples_split': 2, 'min_samples_leaf': 2,
+'max_features': 'auto', 'max_depth': 80, 'criterion': 'gini', 'bootstrap': False}
+Tiempo transcurrido (best_model_grid_search_cv): 0:14:08.995016
+------------------------------------------------------------------------

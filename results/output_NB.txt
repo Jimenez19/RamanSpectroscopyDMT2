@@ -1,0 +1,41 @@
+------------------------------------------------------------------------
+Mejores resultados para EarLobe
+recall:0.5, accuracy:0.8, precision:0.5, f1:0.5
+Hiperparámetros: {'var_smoothing': 0.1873817422860384}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:26.733609
+------------------------------------------------------------------------
+Mejores resultados para InnerArm
+recall:0.45, accuracy:0.5, precision:0.45, f1:0.45
+Hiperparámetros: {'var_smoothing': 0.657933224657568}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:25.115196
+------------------------------------------------------------------------
+Mejores resultados para ThumbNail
+recall:0.45, accuracy:0.5, precision:0.45, f1:0.45
+Hiperparámetros: {'var_smoothing': 0.8111308307896871}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:23.447368
+------------------------------------------------------------------------
+Mejores resultados para Vein
+recall:0.45, accuracy:0.6, precision:0.45, f1:0.45
+Hiperparámetros: {'var_smoothing': 0.43287612810830584}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:22.145430
+------------------------------------------------------------------------
+Mejores resultados para EarLobe PCA
+recall:0.5, accuracy:0.6, precision:0.5, f1:0.5
+Hiperparámetros: {'var_smoothing': 1.0}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:07.579348
+------------------------------------------------------------------------
+Mejores resultados para InnerArm PCA
+recall:0.55, accuracy:0.55, precision:0.55, f1:0.55
+Hiperparámetros: {'var_smoothing': 1.0}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:07.395154
+------------------------------------------------------------------------
+Mejores resultados para ThumbNail PCA
+recall:0.5, accuracy:0.6, precision:0.5, f1:0.5
+Hiperparámetros: {'var_smoothing': 0.12328467394420659}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:07.650962
+------------------------------------------------------------------------
+Mejores resultados para Vein PCA
+recall:0.45, accuracy:0.65, precision:0.45, f1:0.45
+Hiperparámetros: {'var_smoothing': 0.012328467394420659}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:08.378372
+------------------------------------------------------------------------

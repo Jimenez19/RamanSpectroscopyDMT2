@@ -1,0 +1,41 @@
+------------------------------------------------------------------------
+Mejores resultados para EarLobe
+recall:0.5, accuracy:0.8, precision:0.5, f1:0.5
+Hiperparámetros: {'weights': 'distance', 'n_neighbors': 6, 'metric': 'minkowski', 'algorithm': 'ball_tree'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:40.901200
+------------------------------------------------------------------------
+Mejores resultados para InnerArm
+recall:0.4, accuracy:0.65, precision:0.4, f1:0.4
+Hiperparámetros: {'weights': 'uniform', 'n_neighbors': 9, 'metric': 'manhattan', 'algorithm': 'kd_tree'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:25.793604
+------------------------------------------------------------------------
+Mejores resultados para ThumbNail
+recall:0.4, accuracy:0.5, precision:0.4, f1:0.4
+Hiperparámetros: {'weights': 'distance', 'n_neighbors': 9, 'metric': 'manhattan', 'algorithm': 'ball_tree'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:22.448358
+------------------------------------------------------------------------
+Mejores resultados para Vein
+recall:0.45, accuracy:0.55, precision:0.45, f1:0.45
+Hiperparámetros: {'weights': 'distance', 'n_neighbors': 9, 'metric': 'euclidean', 'algorithm': 'auto'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:21.047855
+------------------------------------------------------------------------
+Mejores resultados para EarLobe PCA
+recall:0.5, accuracy:0.85, precision:0.5, f1:0.5
+Hiperparámetros: {'weights': 'distance', 'n_neighbors': 8, 'metric': 'minkowski', 'algorithm': 'kd_tree'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:07.683403
+------------------------------------------------------------------------
+Mejores resultados para InnerArm PCA
+recall:0.45, accuracy:0.6, precision:0.45, f1:0.45
+Hiperparámetros: {'weights': 'distance', 'n_neighbors': 9, 'metric': 'euclidean', 'algorithm': 'auto'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:07.843376
+------------------------------------------------------------------------
+Mejores resultados para ThumbNail PCA
+recall:0.5, accuracy:0.65, precision:0.5, f1:0.5
+Hiperparámetros: {'weights': 'uniform', 'n_neighbors': 9, 'metric': 'manhattan', 'algorithm': 'brute'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:08.447191
+------------------------------------------------------------------------
+Mejores resultados para Vein PCA
+recall:0.5, accuracy:0.55, precision:0.5, f1:0.5
+Hiperparámetros: {'weights': 'uniform', 'n_neighbors': 7, 'metric': 'manhattan', 'algorithm': 'brute'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:00:08.135775
+------------------------------------------------------------------------

@@ -1,0 +1,49 @@
+------------------------------------------------------------------------
+Mejores resultados para EarLobe
+recall:0.45, accuracy:0.75, precision:0.45, f1:0.45
+Hiperparámetros: {'solver': 'sgd', 'momentum': 0.05, 'learning_rate': 'adaptive',
+'hidden_layer_sizes': 20, 'batch_size': 10, 'alpha': 0.05, 'activation': 'logistic'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:13:43.850368
+------------------------------------------------------------------------
+Mejores resultados para InnerArm
+recall:0.45, accuracy:0.75, precision:0.45, f1:0.45
+Hiperparámetros: {'solver': 'sgd', 'momentum': 0.05, 'learning_rate': 'adaptive',
+'hidden_layer_sizes': 20, 'batch_size': 10, 'alpha': 0.05, 'activation': 'tanh'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:15:51.613996
+------------------------------------------------------------------------
+Mejores resultados para ThumbNail
+recall:0.5, accuracy:0.7, precision:0.5, f1:0.5
+Hiperparámetros: {'solver': 'adam', 'momentum': 0.05, 'learning_rate': 'invscaling',
+'hidden_layer_sizes': 10, 'batch_size': 10, 'alpha': 0.05, 'activation': 'relu'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:21:26.506308
+------------------------------------------------------------------------
+Mejores resultados para Vein
+recall:0.45, accuracy:0.7, precision:0.45, f1:0.45
+Hiperparámetros: {'solver': 'adam', 'momentum': 0.05, 'learning_rate': 'adaptive',
+'hidden_layer_sizes': 50, 'batch_size': 20, 'alpha': 0.0001, 'activation': 'identity'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:20:58.557727
+------------------------------------------------------------------------
+Mejores resultados para EarLobe PCA
+recall:0.5, accuracy:0.85, precision:0.5, f1:0.5
+Hiperparámetros: {'solver': 'adam', 'momentum': 0.05, 'learning_rate': 'adaptive',
+'hidden_layer_sizes': 5, 'batch_size': 20, 'alpha': 0.0001, 'activation': 'identity'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:01:52.110457
+------------------------------------------------------------------------
+Mejores resultados para InnerArm PCA
+recall:0.45, accuracy:0.65, precision:0.45, f1:0.45
+Hiperparámetros: {'solver': 'sgd', 'momentum': 0.05, 'learning_rate': 'constant',
+'hidden_layer_sizes': 5, 'batch_size': 5, 'alpha': 0.05, 'activation': 'relu'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:02:10.501415
+------------------------------------------------------------------------
+Mejores resultados para ThumbNail PCA
+recall:0.5, accuracy:0.8, precision:0.5, f1:0.5
+Hiperparámetros: {'solver': 'adam', 'momentum': 0.0001, 'learning_rate': 'constant',
+'hidden_layer_sizes': 20, 'batch_size': 10, 'alpha': 0.0001, 'activation': 'logistic'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:01:55.024971
+------------------------------------------------------------------------
+Mejores resultados para Vein PCA
+recall:0.45, accuracy:0.75, precision:0.45, f1:0.45
+Hiperparámetros: {'solver': 'sgd', 'momentum': 0.05, 'learning_rate': 'adaptive',
+'hidden_layer_sizes': 20, 'batch_size': 2, 'alpha': 0.0001, 'activation': 'relu'}
+Tiempo transcurrido (best_model_grid_search_cv): 0:02:26.995766
+------------------------------------------------------------------------
